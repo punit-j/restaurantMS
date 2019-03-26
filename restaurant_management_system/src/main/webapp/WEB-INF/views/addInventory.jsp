@@ -124,13 +124,13 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="inputGroup-sizing-sm">Start Date</span>
                     </div>
-                    <input type="date"  placeholder="mm-dd-yyyy" name="startDate" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                    <input type="date" name="startDate" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
                   </div>
                   <div class="input-group input-group mb-3">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="inputGroup-sizing-sm">End Date</span>
                     </div>
-                     <input type="date"  placeholder="mm-dd-yyyy" name="endDate" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                     <input type="date" name="endDate" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
                   </div>
                   <div class="input-group input-group mb-3">
                     <div class="input-group-prepend">

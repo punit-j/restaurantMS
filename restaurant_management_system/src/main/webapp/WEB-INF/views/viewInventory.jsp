@@ -166,7 +166,7 @@
                                             <a href="editInventory.html?id=${inventory.inventoryId}" class="btn btn-secondary"><i
                                                     class="fas fa-edit"></i></a>
                                                 
-                                            <a href="deleteInventory.html?id=${inventory.inventoryId}" class="btn btn-secondary"><i
+                                            <a href="deleteInventory.html?id=${inventory.inventoryId}" onclick="return confirm('Confirm delete?');" class="btn btn-secondary"><i
                                                     class="fas fa-trash-alt"></i></a>
                                         </div>
                                     </td>

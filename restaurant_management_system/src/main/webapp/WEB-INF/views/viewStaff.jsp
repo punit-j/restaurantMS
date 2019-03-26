@@ -146,7 +146,7 @@
                                     <td style="border-right: none; border-left: rgb(202, 202, 202) 1px solid; width:300px;">
                                         <div class="btn-group" role="group" aria-label="Basic example">
                                                 <a href="editStaff.html?id=${staff.staffId}" class="btn btn-secondary"><i class="fas fa-edit"></i></a>
-                                                <a href="deleteStaff.html?id=${staff.staffId}" class="btn btn-secondary"><i class="fas fa-trash-alt"></i></a>
+                                                <a href="deleteStaff.html?id=${staff.staffId}" onclick="return confirm('Confirm delete?');" class="btn btn-secondary"><i class="fas fa-trash-alt"></i></a>
                                         </div>
                                     </td>
                                 </tr>
